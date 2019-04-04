@@ -1,5 +1,4 @@
 require 'rails_helper'
-=begin
 describe 'navigate' do
   before do
     @post = Post.create(title: "My Post", description: "My post desc", name: "Steven")
@@ -45,5 +44,4 @@ describe 'form' do
 
     expect(page).to have_content("My edit")
   end
-end
-=end 
+end 
